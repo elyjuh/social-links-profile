@@ -15,8 +15,8 @@
     --brand-green: hsl(75, 94%, 57%);
     --white: hsl(0, 0%, 100%); 
     --p-size: 14px;
-    --h1-size:  22px;
-    --h2-size:  12.5px;
+    --h1-size:  24px;
+    --h2-size:  13.5px;
     --plain-text: 400;
     --bold-weight: 600;
     --bolder-weight: 700;
@@ -75,12 +75,13 @@ main {
     color: var(--white);
     font-size: var(--p-size);
     margin-top: 25px;
+    margin-bottom: 30px;
 }
 
 .buttons {
     display: flex;
     flex-direction: column;
-    gap: 13px;
+    gap: 15px;
 }
 
 button {
@@ -88,7 +89,7 @@ button {
     color: var(--white);
     border: none;
     border-radius: 7px;
-    padding: 12px 0;
+    padding: 14px 0;
     font-weight: var(--bolder-weight);
     font-size: 13px;
     cursor: pointer;
